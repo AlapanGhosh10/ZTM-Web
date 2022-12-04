@@ -1,11 +1,42 @@
-h2 {
-    color: red;
+body {
+    background-image: url(back-mountain.jpeg);
+    background-size: cover;
+    /* background-color: rgb(27, 152, 170); */
 }
 
-p {
+nav {
+    color: rgb(6, 33, 58);
+}
+
+#div1 {
+    background-color: rgba(0, 0, 255, 0.2);
+    border: 5px dashed rgb(6, 33, 58);;
+}
+
+h2 {
+    color: rgb(1, 90, 102);
+    text-align: center;
+    background-color: rgb(144, 219, 229);
+    border: 2px solid rgb(2, 119, 135);
+    cursor: pointer;
+}
+
+/* p {
     color: pink;
 }
 
 p {
-    color: green;
+    color: rgb(6, 33, 58);
+} */
+
+li {
+    list-style: none;
+    display: inline-block;
 }
+
+.webtext {
+    /* border: 5px dashed rgb(6, 33, 58); */
+    color: rgb(144, 219, 229);
+    text-align: center;
+}
+
